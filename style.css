@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #e9f1f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: #e9f1f8;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.btn-outline {
+  border: 1px solid #007bff;
+  padding: 8px 14px;
+  border-radius: 5px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.small-text {
+  text-transform: uppercase;
+  color: gray;
+  font-size: 12px;
+}
+
+.email-form {
+  margin: 20px 0;
+}
+
+.email-form input[type="email"] {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.email-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f75b36;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.trust-text {
+  margin-top: 10px;
+  color: gray;
+  font-size: 14px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+  background-color: white;
+}
+
+.feature {
+  text-align: center;
+  max-width: 200px;
+}
+
+.feature h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 14px;
+  color: #666;
+}
